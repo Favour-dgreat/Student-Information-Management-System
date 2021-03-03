@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Management System | Project </title>
+    <link href="./styles.css" rel="stylesheet" type="text/css"> 
+    <link rel="icon" href="./Images/Captain-Elechi-Amadi-Polytechnic-Port-Harcourt-Polytechnic-Rumuola-Rivers-State-Nigeria.jpg">
+    <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-storage.js"></script>
+</head>
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+    <!-- Just an image -->
+    <nav class="navbar sticky-top navbar-expand-md">
+        <a class="navbar-brand" href="index.html"><img src="./Images/Captain-Elechi-Amadi-Polytechnic-Port-Harcourt-Polytechnic-Rumuola-Rivers-State-Nigeria.jpg"  alt="captain elechi amadi poly logo"/></a>
+        <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#main-navigation" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="bg-dark w-100 collapse navbar-collapse " id="main-navigation">
+        <!-- <button onclick="mainApp.logout();">logout</button> -->
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+
+      </ul>
+    </div>	
+  </nav>
+  <div class=" bg-dark text-center w-100">
+
+    <h1 style="color: white;"> Captain Elechi Amadi Polytechnic </h1>
+    <h2 style="color: white;"> Department Of Computer </h2>
+    <h3 style="color: white;">Student Information Management System</h3>
+    <center>
+    <p style="color: white;">Image Name</p> <input id="namebox" type="text"> <br><br>
+    <img id="myimg">
+    <br> <label id="UpProgress" style="color: white;"></label> <br>
+    
+    <button id="select">Select Image</button>
+    <button id="upload">Upload Image</button>
+    <button id="retrieve">Retrieve Image</button>
+</center>
+<br>
+    <footer class="ftco-bg-dark">
+      
+        <div class="row">
+          <div class="col-md-12 text-center text-light">
+            <p>
+              Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Student Information Management System
+  
+    </footer>
+
+    <!-- Firebase SDK -->
+    
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="./examsandrecords.js"></script>
+    <!-- <script src="./dean.js"></script> -->
+    <!-- <script src="./script.js"></script> -->
+    <!-- <script src="./Hod.js"></script> -->
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PROJECT|WELCOME</title>
+    <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/ui/4.6.1/firebase-ui-auth.js"></script>
+<link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.6.1/firebase-ui-auth.css" />
+<link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+<link href="light.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <!-- head-->
+    <div class="container">
+        <div id="login_div" class="main-div">
+<div class="sub-head">
+    <!-- <button id="button-1"><a href="#signin">SignIn</a></button>
+    <button  id="button-1"><a href="#signin">SignUp</a></button> -->
+</div>
+<div class="clear"></div>
+<div class="logo">
+    <div class="logo-1">
+        <img src="logo.jpg" alt="">
+    </div>
+    <div class="logo-2">
+       <h1>Captain Elechi Amadi Polytechnic</h1>
+       <h2 style="color: white;">Department of Computer Science</h2>
+       <h3 style="color: white;">Student Information Management System</h3>
+    </div>
+    <div class="logo-3">
+        <img src="naccos.jpg" alt="">
+    </div>
+    
+</div>
+<div class="clear"></div>
+<div id="showcase">
+    <div class="gallary">       
+        <div class="slider" id="sun">
+       <div class="slides">
+           <input type="radio" name="radio-btn" id="radio1">
+           <input type="radio" name="radio-btn" id="radio2">
+           <input type="radio" name="radio-btn" id="radio3">
+           <input type="radio" name="radio-btn" id="radio4">
+           <div class="slide first">
+           <img src="ELECHI.jpg" alt="pics" >
+           </div>
+           <div class="slide">
+               <img src="com.png" alt="pics">
+               </div>
+               <div class="slide">
+                   <img src="pas.JPG" alt="pics">
+                   </div>
+                   <div class="slide">
+                       <img src="sch.JPG" alt="pics">
+                       </div>
+                       <!-- automatic nav start -->
+                       <div class="navigation-auto">
+                           <div class="auto-btn1"> </div>
+                           <div class="auto-btn2"> </div>
+                           <div class="auto-btn3"> </div>
+                           <div class="auto-btn4"> </div>
+
+                       </div>
+
+                       <!-- automatic nav end -->
+                     
+       </div>
+                       <!-- manual nav start -->
+                       <div class="navigation-manual">
+                           <label for="radio1" class="manual-btn"></label>
+                           <label for="radio2" class="manual-btn"></label>
+                           <label for="radio3" class="manual-btn"></label>
+                           <label for="radio4" class="manual-btn"></label>
+                       </div>
+                        <!-- manual nav end -->
+
+       </div>    
+</div>
+
+<div class="sub-contianer">
+<section>
+    <h1 style="text-align: center; color: white;">LOGIN HERE</h1>
+    <div id="firebaseui-auth-container"></div>
+</section>
+
+<aside>
+
+</aside>
+
+    
+</div>
+
+<footer style="color: white; text-align: center;">
+      
+    <div class="row">
+      <div class="col-md-12 text-center text-light">
+        <p>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Student Information Management System
+
+</footer>
+
+    </div>
+    <script src="login.js"></script>
+    <script src='in.js'></script>
+    <!-- <div class="bg-dark">
+    The surrounding HTML is left untouched by FirebaseUI.
+         Your app may use that space for branding, controls and other customizations.
+         <br><br>
+         <h1 style="text-align: center;">Please Sign in to continue</h1>
+         <div id="firebaseui-auth-container"></div>
+    <div> -->
+<script src="light.js"></script>
+<script src="login.js"></script>
+</body>
+</html>

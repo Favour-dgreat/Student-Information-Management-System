@@ -1,0 +1,28 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    border: border-box;
+    background-image: url(../Images/office.png);
+  }
+.light{
+    width: 90%;
+    height: 800px;
+    overflow: hidden;
+}
+header{
+    text-align: center;
+}
+
+#myimg{
+    height: 350px;
+    width: 350px;
+    border: 5px solid rgb(140, 82, 82);
+}
+center button{
+    text-transform: uppercase;
+    margin: 5px;
+}
+center button:hover{
+    background-color: rgb(243, 234, 234);
+    border: 9px groove #fff;
+}

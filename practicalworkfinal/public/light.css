@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+}
+h1{
+    color: #fff;
+}
+
+#firebaseui-auth-container{
+    margin-top: 5em;
+}
